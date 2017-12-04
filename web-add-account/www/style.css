@@ -1,0 +1,20 @@
+body {
+	background: #efefef;
+}
+
+input[type=text] {
+	width: 400px;
+}
+
+#myForm {
+	padding-top: 10px;
+}
+
+.info-box {
+	display: block;
+	padding-bottom: 10px;
+}
+
+.result {
+	margin-top: 20px;
+}

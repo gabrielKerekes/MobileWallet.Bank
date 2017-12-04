@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pridanie účtu</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="www/style.css?ver=1.0"/>
+    <!-- jQuery -->
+    <script src="www/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="form-box" class=" text-center">
+            <h1>Zadaj číslo účtu</h1>
+            <div class="info-box">
+                <p>Formát pre IBAN napr. SK2409000000008234567893 </p>
+                <p>Kód banky použiť 0200 alebo 0900</p>
+                <a class="info-link" href="http://www.nbs.sk/sk/platobne-systemy/iban/iban-slovenska-republika">Viac info tu</a>
+            </div>
+            <img src="www/images/IBAN.png" alt="IBAN image">
+            <form id="myForm" action="#" method="post">
+                <div class="form-group">
+                    <label class="input-label">Č. účtu: </label>
+                    <input type="text" name="accountNumber" placeholder="IBAN" required>
+                </div>
+                <input type="submit" class= "btn btn-default" value="ODOSLAŤ">
+            </form>
+            <p class="result"></p>
+        </div>
+    </div>
+                    
+<script src="www/scripts.js"></script>
+</body>
+</html>
