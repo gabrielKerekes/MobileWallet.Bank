@@ -7,63 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1e31d62-8ed1-4117-b71b-2f3aa684e235" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/BankServer_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/Team_project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BankServer.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/BankApp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/BankClient$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/BankClient$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/BankClient$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/BankClient$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/BankClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Manager/ConfigManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Manager/DatabaseManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Model/Account.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Model/AccountTransaction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Model/Bank.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Model/IbanTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Model/Request.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Model/Response.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Model/Shop.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Model/Transaction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankModule/Test/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankRest/AccountMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankRest/BankRest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankRest/Destination.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankRest/IdentityMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankRest/TestTransactionMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankRest/TransactionMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/bankserver/jersey/BankServer.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/BankServer.eml" afterPath="$PROJECT_DIR$/SmartWallet.Bank.eml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/BankServer.userlibraries" afterPath="$PROJECT_DIR$/SmartWallet.Bank.userlibraries" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/BankApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/BankApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/BankClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/BankClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Manager/ConfigManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Manager/ConfigManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Manager/DatabaseManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Manager/DatabaseManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Model/Account.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Model/Account.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Model/AccountTransaction.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Model/AccountTransaction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Model/Bank.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Model/Bank.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Model/IbanTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Model/IbanTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Model/Request.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Model/Request.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Model/Response.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Model/Response.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Model/Shop.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Model/Shop.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Model/Transaction.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Model/Transaction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankModule/Test/Client.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Test/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankRest/AccountMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankRest/AccountMessage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankRest/BankRest.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankRest/BankRest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankRest/Destination.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankRest/Destination.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankRest/IdentityMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankRest/IdentityMessage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankRest/TestTransactionMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankRest/TestTransactionMessage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankRest/TransactionMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankRest/TransactionMessage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/bankserver/jersey/BankServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logging.properties" afterPath="$PROJECT_DIR$/target/classes/logging.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,43 +60,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Manager/DatabaseManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="80" column="71" lean-forward="false" selection-start-line="80" selection-start-column="63" selection-end-line="80" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1511973325642" expanded="true" signature="4448:4578" ph="INSERT INTO account... " />
-                <marker date="1511973325642" expanded="true" signature="5268:5282" ph="SELECT * FRO... bank" />
-                <marker date="1511973325642" expanded="true" signature="6212:6285" ph="SELECT * FRO... account" />
-                <marker date="1511973325642" expanded="true" signature="7151:7212" ph="SELECT * FRO... account" />
-                <marker date="1511973325642" expanded="true" signature="8189:8309" ph="UPDATE accou... " />
-                <marker date="1511973325642" expanded="true" signature="8891:8949" ph="SELECT * FRO... bank" />
-                <marker date="1511973325642" expanded="true" signature="9632:9691" ph="SELECT * FRO... bank" />
-                <marker date="1511973325642" expanded="true" signature="10775:10938" ph="INSERT INTO account_transaction... " />
-                <marker date="1511973325642" expanded="true" signature="11868:11953" ph="SELECT * FRO... account_transaction" />
-                <marker date="1511973325642" expanded="true" signature="13154:13336" ph="INSERT INTO transaction... " />
-                <marker date="1511973325642" expanded="true" signature="14227:14300" ph="SELECT * FRO... transaction" />
-                <marker date="1511973325642" expanded="true" signature="15429:15595" ph="SELECT * FRO... transaction" />
-                <marker date="1511973325642" expanded="true" signature="16749:16874" ph="UPDATE trans... " />
-                <marker date="1511973325642" expanded="true" signature="17531:17601" ph="SELECT * FRO... transaction" />
-                <marker date="1511973325642" expanded="true" signature="18566:18580" ph="SELECT * FRO... account" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Manager/ConfigManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BankClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/BankClient.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -183,11 +90,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="459">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -211,11 +138,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Manager/DatabaseManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/BankClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankRest/BankRest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankServer.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
       </list>
     </option>
   </component>
@@ -254,7 +182,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,6 +222,13 @@
             <path>
               <item name="SmartWallet.Bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartWallet.Bank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmartWallet.Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartWallet.Bank" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,9 +245,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -577,14 +512,15 @@
       <workItem from="1512229935560" duration="794000" />
       <workItem from="1512234237443" duration="616000" />
       <workItem from="1512292277388" duration="30000" />
+      <workItem from="1512492796644" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2690000" />
+    <option name="totallyTimeSpent" value="2992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -601,7 +537,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19912152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -630,6 +566,71 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Manager/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="71" lean-forward="false" selection-start-line="80" selection-start-column="63" selection-end-line="80" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1511973325642" expanded="true" signature="4448:4578" ph="INSERT INTO account... " />
+            <marker date="1511973325642" expanded="true" signature="5268:5282" ph="SELECT * FRO... bank" />
+            <marker date="1511973325642" expanded="true" signature="6212:6285" ph="SELECT * FRO... account" />
+            <marker date="1511973325642" expanded="true" signature="7151:7212" ph="SELECT * FRO... account" />
+            <marker date="1511973325642" expanded="true" signature="8189:8309" ph="UPDATE accou... " />
+            <marker date="1511973325642" expanded="true" signature="8891:8949" ph="SELECT * FRO... bank" />
+            <marker date="1511973325642" expanded="true" signature="9632:9691" ph="SELECT * FRO... bank" />
+            <marker date="1511973325642" expanded="true" signature="10775:10938" ph="INSERT INTO account_transaction... " />
+            <marker date="1511973325642" expanded="true" signature="11868:11953" ph="SELECT * FRO... account_transaction" />
+            <marker date="1511973325642" expanded="true" signature="13154:13336" ph="INSERT INTO transaction... " />
+            <marker date="1511973325642" expanded="true" signature="14227:14300" ph="SELECT * FRO... transaction" />
+            <marker date="1511973325642" expanded="true" signature="15429:15595" ph="SELECT * FRO... transaction" />
+            <marker date="1511973325642" expanded="true" signature="16749:16874" ph="UPDATE trans... " />
+            <marker date="1511973325642" expanded="true" signature="17531:17601" ph="SELECT * FRO... transaction" />
+            <marker date="1511973325642" expanded="true" signature="18566:18580" ph="SELECT * FRO... account" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Manager/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/BankClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankRest/BankRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web-add-account/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -942,28 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logging.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smartwallet/bank/jersey/BankModule/Manager/DatabaseManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -1047,8 +1026,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="459">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
