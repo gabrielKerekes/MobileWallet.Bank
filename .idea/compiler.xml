@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BankServer" />
+        <module name="MobileWallet.Bank" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BankServer" target="1.7" />
+      <module name="MobileWallet.Bank" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

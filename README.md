@@ -1,2 +1,2 @@
-# SmartWallet.Bank
-SmartWallet Bank simulation repository
+# MobileWallet.Bank
+MobileWallet Bank simulation repository

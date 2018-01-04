@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: com.sun.jersey:jersey-bundle:1.19.3">
+    <archive path="C:/Users/GabrielK/.m2/repository/com/sun/jersey/jersey-bundle/1.19.3/jersey-bundle-1.19.3.jar" />
+  </library>
+  <library name="Maven: javax.ws.rs:jsr311-api:1.1.1">
+    <archive path="C:/Users/GabrielK/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar" />
+  </library>
+  <library name="Maven: com.owlike:genson:1.4">
+    <archive path="C:/Users/GabrielK/.m2/repository/com/owlike/genson/1.4/genson-1.4.jar" />
+  </library>
+  <library name="Maven: org.eclipse.paho:org.eclipse.paho.mqtt.utility:1.1.0">
+    <archive path="C:/Users/GabrielK/.m2/repository/org/eclipse/paho/org.eclipse.paho.mqtt.utility/1.1.0/org.eclipse.paho.mqtt.utility-1.1.0.jar" />
+  </library>
+  <library name="Maven: org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0">
+    <archive path="C:/Users/GabrielK/.m2/repository/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.1.0/org.eclipse.paho.client.mqttv3-1.1.0.jar" />
+  </library>
+  <library name="Maven: mysql:mysql-connector-java:6.0.6">
+    <archive path="C:/Users/GabrielK/.m2/repository/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.2">
+    <archive path="C:/Users/GabrielK/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.2/httpasyncclient-4.1.2.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpcore:4.4.5">
+    <archive path="C:/Users/GabrielK/.m2/repository/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.5">
+    <archive path="C:/Users/GabrielK/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.5/httpcore-nio-4.4.5.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpclient:4.5.2">
+    <archive path="C:/Users/GabrielK/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar" />
+  </library>
+  <library name="Maven: commons-codec:commons-codec:1.9">
+    <archive path="C:/Users/GabrielK/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar" />
+  </library>
+  <library name="Maven: commons-logging:commons-logging:1.2">
+    <archive path="C:/Users/GabrielK/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
+  </library>
+  <library name="Maven: org.json:json:20080701">
+    <archive path="C:/Users/GabrielK/.m2/repository/org/json/json/20080701/json-20080701.jar" />
+  </library>
+  <library name="Maven: log4j:log4j:1.2.17">
+    <archive path="C:/Users/GabrielK/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-log4j12:1.8.0-alpha2">
+    <archive path="C:/Users/GabrielK/.m2/repository/org/slf4j/slf4j-log4j12/1.8.0-alpha2/slf4j-log4j12-1.8.0-alpha2.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:1.8.0-alpha2">
+    <archive path="C:/Users/GabrielK/.m2/repository/org/slf4j/slf4j-api/1.8.0-alpha2/slf4j-api-1.8.0-alpha2.jar" />
+  </library>
+</eclipse-userlibraries>
+
