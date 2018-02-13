@@ -9,6 +9,7 @@ import com.mobilewallet.bank.jersey.BankModule.Model.Account;
 import com.mobilewallet.bank.jersey.BankModule.Model.AccountTransaction;
 import com.mobilewallet.bank.jersey.BankModule.Model.Bank;
 import com.mobilewallet.bank.jersey.BankRest.IdentityMessage;
+import com.mobilewallet.bank.jersey.HttpsCertificateUtils;
 import org.apache.http.entity.StringEntity;
 import com.mobilewallet.bank.jersey.BankModule.Manager.ConfigManager;
 import com.mobilewallet.bank.jersey.BankModule.Manager.DatabaseManager;
@@ -128,23 +129,12 @@ public class BankClient extends MqttClient implements MqttCallback {
         System.setProperty("org.apache.commons.logging.simplelog.log.org.apache.http", "ERROR");
         System.setProperty("org.apache.commons.logging.simplelog.log.org.apache.http.headers", "ERROR");
 
-
-        // Create a trust manager that does not validate certificate chains
-        TrustStrategy acceptingTrustStrategy = new TrustStrategy() {
-            public boolean isTrusted(X509Certificate[] certificate, String authType) {
-                return true;
-            }
-        };
-
-        SSLContext sslContext = null;
         try {
-            sslContext = SSLContexts.custom().loadTrustMaterial(null, acceptingTrustStrategy).build();
+            httpclient = HttpAsyncClients.custom().setSSLContext(HttpsCertificateUtils.getSslFactoryWithTrustedCertificate()).build();
         } catch (Exception e) {
-            logger.error("Error: ", e);
+            logger.error("Error: Create HttpClient - ", e);
             e.printStackTrace();
         }
-
-        httpclient = HttpAsyncClients.custom().setHostnameVerifier(SSLConnectionSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER).setSSLContext(sslContext).build();
     }
 
     /**
