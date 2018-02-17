@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="School">
+    <serverData>
+      <paths name="School">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/user/appky/MobileWallet.Bank" local="$PROJECT_DIR$" web="/bank" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

@@ -21,7 +21,7 @@ import javax.net.ssl.TrustManagerFactory;
 
 public class HttpsCertificateUtils {
     private final static String TAG = "CertificateUtils";
-    private final static String ROOT_CA_CERTIFICATE_FILE_NAME = "rest.pem";
+    private final static String ROOT_CA_CERTIFICATE_FILE_NAME = "MobileWalletRootCA.pem";
 
     private static SSLContext mSslContextCache;
 

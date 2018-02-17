@@ -9,6 +9,7 @@ import com.mobilewallet.bank.jersey.BankModule.Model.Bank;
 import com.mobilewallet.bank.jersey.BankModule.Test.Client;
 import com.mobilewallet.bank.jersey.BankModule.Manager.ConfigManager;
 import com.mobilewallet.bank.jersey.BankModule.Manager.DatabaseManager;
+import com.mobilewallet.bank.jersey.HttpsCertificateUtils;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
@@ -113,6 +114,12 @@ public class BankApp {
 
         MqttConnectOptions connOpts = new MqttConnectOptions();
         connOpts.setCleanSession(true);
+        try {
+            connOpts.setSocketFactory(HttpsCertificateUtils.getSslFactoryWithTrustedCertificate().getSocketFactory());
+        } catch (Exception e) {
+            logger.error("Error while setting secure socket factory: ", e);
+            e.printStackTrace();
+        }
 
         try {
             for(Bank bank : banks) {
