@@ -13,15 +13,11 @@ import com.mobilewallet.bank.jersey.HttpsCertificateUtils;
 import org.apache.http.entity.StringEntity;
 import com.mobilewallet.bank.jersey.BankModule.Manager.ConfigManager;
 import com.mobilewallet.bank.jersey.BankModule.Manager.DatabaseManager;
-import com.mobilewallet.bank.jersey.BankModule.Model.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.concurrent.FutureCallback;
-import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import org.apache.http.conn.ssl.TrustStrategy;
 import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
 import org.apache.http.impl.nio.client.HttpAsyncClients;
-import org.apache.http.ssl.SSLContexts;
 import com.mobilewallet.bank.jersey.BankModule.Model.Transaction;
 import org.eclipse.paho.client.mqttv3.*;
 import org.json.JSONArray;
@@ -30,11 +26,9 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.net.ssl.SSLContext;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
-import java.security.cert.X509Certificate;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
@@ -130,7 +124,7 @@ public class BankClient extends MqttClient implements MqttCallback {
         System.setProperty("org.apache.commons.logging.simplelog.log.org.apache.http.headers", "ERROR");
 
         try {
-            httpclient = HttpAsyncClients.custom().setSSLContext(HttpsCertificateUtils.getSslFactoryWithTrustedCertificate()).build();
+            httpclient = HttpAsyncClients.custom().setSSLContext(HttpsCertificateUtils.getSslContextWithTrustedCertificate()).build();
         } catch (Exception e) {
             logger.error("Error: Create HttpClient - ", e);
             e.printStackTrace();

@@ -115,7 +115,7 @@ public class BankApp {
         MqttConnectOptions connOpts = new MqttConnectOptions();
         connOpts.setCleanSession(true);
         try {
-            connOpts.setSocketFactory(HttpsCertificateUtils.getSslFactoryWithTrustedCertificate().getSocketFactory());
+            connOpts.setSocketFactory(HttpsCertificateUtils.getSslContextWithTrustedCertificate().getSocketFactory());
         } catch (Exception e) {
             logger.error("Error while setting secure socket factory: ", e);
             e.printStackTrace();

@@ -9,11 +9,9 @@ import java.security.NoSuchAlgorithmException;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
+import java.security.cert.X509Certificate;
 
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSocketFactory;
-import javax.net.ssl.TrustManager;
-import javax.net.ssl.TrustManagerFactory;
+import javax.net.ssl.*;
 
 /**
  * Created by GabrielK on 07-Jan-18.
@@ -71,7 +69,7 @@ public class HttpsCertificateUtils {
         return tmf.getTrustManagers();
     }
 
-    public static SSLContext getSslFactoryWithTrustedCertificate()
+    public static SSLContext getSslContextWithTrustedCertificate()
             throws KeyStoreException, CertificateException, NoSuchAlgorithmException, IOException, KeyManagementException {
         if (mSslContextCache == null) {
             KeyStore keyStore = initializeKeystore();
@@ -83,5 +81,33 @@ public class HttpsCertificateUtils {
         }
 
         return mSslContextCache;
+    }
+
+    public static SSLContext getSslContextWithTrustAll()
+            throws NoSuchAlgorithmException, KeyManagementException {
+        TrustManager[] trustAllCerts = new TrustManager[]{new X509TrustManager()
+        {
+            public X509Certificate[] getAcceptedIssuers()
+            {
+                return null;
+            }
+
+            @Override
+            public void checkClientTrusted(X509Certificate[] arg0, String arg1)
+            {
+                // Not implemented
+            }
+
+            @Override
+            public void checkServerTrusted(X509Certificate[] arg0, String arg1)
+            {
+                // Not implemented
+            }
+        }};
+
+        SSLContext sc = SSLContext.getInstance("TLS");
+        sc.init(null, trustAllCerts, new java.security.SecureRandom());
+
+        return sc;
     }
 }
