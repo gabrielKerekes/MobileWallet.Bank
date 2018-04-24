@@ -10,6 +10,7 @@ import com.mobilewallet.bank.jersey.BankModule.Model.AccountTransaction;
 import com.mobilewallet.bank.jersey.BankModule.Model.Bank;
 import com.mobilewallet.bank.jersey.BankRest.IdentityMessage;
 import com.mobilewallet.bank.jersey.HttpsCertificateUtils;
+import com.mobilewallet.bank.jersey.NullHostNameVerifier;
 import org.apache.http.entity.StringEntity;
 import com.mobilewallet.bank.jersey.BankModule.Manager.ConfigManager;
 import com.mobilewallet.bank.jersey.BankModule.Manager.DatabaseManager;
@@ -124,7 +125,11 @@ public class BankClient extends MqttClient implements MqttCallback {
         System.setProperty("org.apache.commons.logging.simplelog.log.org.apache.http.headers", "ERROR");
 
         try {
-            httpclient = HttpAsyncClients.custom().setSSLContext(HttpsCertificateUtils.getSslContextWithTrustedCertificate()).build();
+            httpclient = HttpAsyncClients.custom()
+                    .setSSLContext(HttpsCertificateUtils.getSslContextWithTrustedCertificate())
+                    // uncomment for trust all
+                    //.setSSLHostnameVerifier(new NullHostNameVerifier())
+                .build();
         } catch (Exception e) {
             logger.error("Error: Create HttpClient - ", e);
             e.printStackTrace();
